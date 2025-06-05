@@ -1,6 +1,7 @@
 import React from 'react';
 import { BarChart2, Activity, TrendingUp, Cpu, Layers, Shield, LineChart, History, Users, MessageSquare } from 'lucide-react';
 
+
 const features = [
   {
     title: 'Real-Time Metrics Dashboard',
@@ -50,7 +51,7 @@ const Features: React.FC = () => {
           {/* Dashboard Image Preview */}
         <div className="mb-20 flex justify-center">
           <img
-            src="/dashboard1.png"
+            src="/assets/dashboard4.jpeg"
             alt="Kaftain Dashboard Preview"
             className="rounded-xl shadow-xl w-full max-w-5xl"
             />

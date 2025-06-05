@@ -30,26 +30,44 @@ const CTA: React.FC = () => {
             </a>
           </div>
         </div>
-
-        {/* Team Kaftain Section */}
+{/* Team Kaftain Section */}
         <div className="mt-24 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
-            Team Kaftain
-          </h2>
-          <div className="flex justify-center gap-8 flex-wrap">
-            {[
-              { name: 'Austin Stubbs', imgAlt: 'placeholder' },
-              { name: 'Joshua Hirakawa', imgAlt: 'placeholder' },
-              { name: 'Amrita Bahadur', imgAlt: 'placeholder' },
-            ].map((member, idx) => (
-              <div key={idx} className="flex flex-col items-center">
-                <div className="w-24 h-24 rounded-full bg-gray-300 mb-3"></div>
-                <p className="text-lg font-medium text-gray-700">{member.name}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
+  <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
+    Team Kaftain
+  </h2>
+  <div className="flex justify-center gap-8 flex-wrap">
+    {[
+      {
+        name: 'Austin Stubbs',
+        imgAlt: 'Austin photo',
+        imgSrc: '/assets/Austin.png', // adjust path based on your public/assets folder
+        title: 'Software Engineer'
+      },
+      {
+        name: 'Joshua Hirakawa',
+        imgAlt: 'Joshua photo',
+        imgSrc: '/assets/Josh.png',
+        title: 'Software Engineer'
+      },
+      {
+        name: 'Amrita Bahadur',
+        imgAlt: 'Amrita photo',
+        imgSrc: '/assets/Amrita.jpeg',
+        title: 'Software Engineer'
+      },
+    ].map((member, idx) => (
+      <div key={idx} className="flex flex-col items-center">
+        <img
+          src={member.imgSrc}
+          alt={member.imgAlt}
+          className="w-32 h-32 rounded-full object-cover mb-3"
+        />
+        <p className="text-lg font-medium text-gray-700">{member.name}</p>
+         <p className="text-sm text-gray-500">{member.title}</p>
+      </div>
+    ))}
+  </div>
+</div>
       </div>
     </section>
   );
