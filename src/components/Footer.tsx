@@ -9,11 +9,11 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center">
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
-                kaftain
+                Kaftain
               </span>
             </div>
             <p className="mt-4 text-gray-400 max-w-md">
-              Kaftain bridges Kafka metrics and Kubernetes HPA, delivering efficient and responsive auto-scaling for your microservices.
+            Kaftain seamlessly bridges Kafka metrics and Kubernetes scaling, delivering efficient and responsive auto-scaling for your consumer clusters
             </p>
             <div className="mt-6 flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-white">
@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider">Resources</h3>
             <ul className="mt-4 space-y-4">
@@ -43,31 +43,10 @@ const Footer: React.FC = () => {
               <li>
                 <a href="#" className="text-gray-300 hover:text-white">Guides</a>
               </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white">Examples</a>
-              </li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider">Company</h3>
-            <ul className="mt-4 space-y-4">
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white">About</a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white">Blog</a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white">Careers</a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white">Contact</a>
-              </li>
             </ul>
           </div>
         </div>
-        
+
         <div className="mt-12 border-t border-gray-800 pt-8">
           <p className="text-gray-400 text-sm text-center">
             &copy; {new Date().getFullYear()} Kaftain. All rights reserved.

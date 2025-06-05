@@ -131,8 +131,8 @@ const Hero: React.FC = () => {
         </div>
 
         <p className="mt-8 max-w-2xl mx-auto text-xl md:text-2xl text-gray-600">
-          Kaftain seamlessly bridges Kafka metrics and Kubernetes HPA,
-          delivering efficient and responsive auto-scaling for your microservices.
+          Kaftain seamlessly bridges Kafka metrics and Kubernetes scaling,
+          delivering efficient and responsive auto-scaling for your consumer clusters.
         </p>
 
         <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">

@@ -25,7 +25,7 @@ const Benefits: React.FC = () => {
               <div className="ml-4">
                 <h3 className="text-xl font-semibold">Improved Performance</h3>
                 <p className="mt-2 text-blue-200">
-                  Scale based on actual message processing demands rather than generic CPU/memory metrics, reducing latency by up to 45% during peak loads.
+                  Scale based on actual message processing demands rather than generic CPU/memory metrics, reducing latency during peak loads.
                 </p>
               </div>
             </div>
@@ -76,22 +76,6 @@ const Benefits: React.FC = () => {
                   Get up and running in minutes with a simple installation process and intuitive configuration. Minimal operator overhead required.
                 </p>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-16 bg-gradient-to-r from-blue-800 to-blue-700 rounded-xl p-8 shadow-lg">
-          <div className="flex flex-col md:flex-row items-start md:items-center">
-            <div className="flex-shrink-0 mb-4 md:mb-0">
-              <div className="flex items-center justify-center h-16 w-16 rounded-md bg-blue-100 text-blue-800">
-                <Shield className="h-8 w-8" />
-              </div>
-            </div>
-            <div className="md:ml-6">
-              <h3 className="text-xl font-semibold">Enterprise Ready</h3>
-              <p className="mt-2 text-blue-200">
-                Built with reliability and security in mind. Kaftain provides detailed metrics, audit logs, and seamless integration with existing monitoring systems. Compatible with major cloud providers and on-premise Kubernetes implementations.
-              </p>
             </div>
           </div>
         </div>

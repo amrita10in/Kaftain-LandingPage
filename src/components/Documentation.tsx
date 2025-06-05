@@ -27,14 +27,6 @@ const Documentation: React.FC = () => {
       className: 'bg-gradient-to-br from-green-50 to-green-100',
       textColor: 'text-green-900'
     },
-    {
-      title: 'Case Studies',
-      description: 'Learn how others are using Kaftain in production',
-      icon: FileText,
-      link: '#',
-      className: 'bg-gradient-to-br from-indigo-50 to-indigo-100',
-      textColor: 'text-indigo-900'
-    }
   ];
 
   return (
@@ -49,9 +41,9 @@ const Documentation: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {resources.map((resource, index) => (
-            <a 
+            <a
               key={index}
               href={resource.link}
               className={`${resource.className} rounded-xl p-6 shadow-sm transition-all hover:shadow-md flex flex-col h-full`}

@@ -21,7 +21,7 @@ const HowItWorks: React.FC = () => {
     {
       number: '04',
       title: 'Automated Scaling',
-      description: 'Kaftain automatically adjusts your Kubernetes deployments through HPA, ensuring optimal performance.',
+      description: 'Kaftain implements custom auto-scaling for your Kubernetes deployments based on real-time Kafka consumer lag, helping maintain optimal system performance.',
     },
   ];
 
